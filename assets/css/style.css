@@ -1,0 +1,48 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.bg{
+    background: #8A39E1;
+}
+
+.nav-bg{
+    background-color: #8A39E1;
+    color: #fff;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: none;
+}
+  
+#services, #staff{
+    min-height: 50vh;
+    padding: 100px 0;
+}
+
+#contact{
+    min-height: 50vh;
+    padding: 50px 0;
+    background: #D0F5BE;
+}
+
+#services{
+    background: #ECC488;
+}
+
+#staff{
+    background: #ECC488;
+}
+
+#scrollUpBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    z-index: 99;
+}
+  
